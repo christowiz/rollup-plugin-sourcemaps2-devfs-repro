@@ -1,0 +1,12 @@
+{
+  "name": "rollup-plugin-sourcemaps2-devfs-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "rollup-plugin-sourcemaps2": "0.5.9",
+    "vite": "7.1.7"
+  }
+}
