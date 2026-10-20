@@ -42,3 +42,13 @@ Measured on macOS 15 with `rollup-plugin-sourcemaps2@0.5.9`:
 Vite 5.4.21 and 6.4.4 are the current releases of their lines and still crash from a browser.
 
 On Linux the request only fails if the filesystem allows reading a directory; on ext4 `fs.readFile` fails with `EISDIR` and the plugin falls through correctly.
+
+---
+
+## UPDATE
+
+Fixed upstream
+
+Issue: https://github.com/2wce/rollup-plugin-sourcemaps2/issues/550
+
+PR fix: https://github.com/2wce/rollup-plugin-sourcemaps2/pull/551
